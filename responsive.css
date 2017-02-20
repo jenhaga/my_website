@@ -1,0 +1,95 @@
+@media screen and (min-width: 480px) {
+  
+  /******************************************
+  TWO COLUMN LAYOUT
+  ******************************************/
+
+  #primary {
+    width: 50%;
+    float: left;  
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+/******************************************
+3 * 5% (because margin is 2.5 and we want 3 columns) = 15%
+100% - 15% (taken up by margin) = 85%
+85/3 (because we want 3 columns) = 28.3333333333 available for each image.
+******************************************/
+ 
+/******************************************
+PAGE: PHOTOS
+******************************************/
+
+  #gallery li {
+    width: 28.3333%;
+  }
+
+
+/******************************************
+PAGE: Home
+******************************************/  
+  
+  .home-page-photo {
+  float: left;
+  margin: 0 170px 0 0;  
+  }  
+  
+  /******************************************
+PAGE: ABOUT
+******************************************/
+
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+  
+
+
+}  
+  
+@media screen and (min-width: 660px) {
+ 
+/******************************************
+HEADER
+******************************************/
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin: 3%;
+    text-align: right; 
+    width: 45%; 
+   }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 35%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #555;
+    margin-bottom: 35px;
+  }
+
+  #wrapper {
+  min-height: calc(100vh - 80px);
+  }
+  
+}
+
