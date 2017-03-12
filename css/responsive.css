@@ -1,12 +1,12 @@
 @media screen and (min-width: 480px) {
-  
+
   /******************************************
   TWO COLUMN LAYOUT
   ******************************************/
 
   #primary {
     width: 50%;
-    float: left;  
+    float: left;
   }
 
   #secondary {
@@ -19,7 +19,7 @@
 100% - 15% (taken up by margin) = 85%
 85/3 (because we want 3 columns) = 28.3333333333 available for each image.
 ******************************************/
- 
+
 /******************************************
 PAGE: PHOTOS
 ******************************************/
@@ -31,14 +31,14 @@ PAGE: PHOTOS
 
 /******************************************
 PAGE: Home
-******************************************/  
-  
+******************************************/
+
   .home-page-photo {
   float: left;
-  margin: 0 170px 0 0;  
-  }  
-  
-  /******************************************
+  margin: 0 170px 0 0;
+  }
+
+/******************************************
 PAGE: ABOUT
 ******************************************/
 
@@ -46,13 +46,19 @@ PAGE: ABOUT
     float: left;
     margin: 0 5% 80px 0;
   }
-  
 
+/******************************************
+PAGE: Jasmin Cube
+******************************************/
 
-}  
-  
+#defaultCanvas0 {
+
+  }
+
+}
+
 @media screen and (min-width: 660px) {
- 
+
 /******************************************
 HEADER
 ******************************************/
@@ -62,8 +68,8 @@ HEADER
     float: right;
     font-size: 1.125em;
     margin: 3%;
-    text-align: right; 
-    width: 45%; 
+    text-align: right;
+    width: 45%;
    }
 
   #logo {
@@ -72,7 +78,7 @@ HEADER
     text-align: left;
     width: 35%;
   }
-  
+
   h1 {
     font-size: 2.5em;
   }
@@ -90,6 +96,11 @@ HEADER
   #wrapper {
   min-height: calc(100vh - 80px);
   }
-  
-}
+ }
 
+ @media screen and (min-width: 520px) {
+
+ .home-page-photo {
+   margin-right: 30px;
+ }
+}
