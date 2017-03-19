@@ -240,8 +240,6 @@ nav a.selected, nav a:hover {
   color: #777;
 }
 
-
-
 /******************************************
 PAGE-ABOUT
 *******************************************/
@@ -254,9 +252,22 @@ PAGE-ABOUT
   box-shadow: 2px 2px 20px 3px rgba(0, 0, 0, 1);
  }
 
+ /******************************************
+ PAGE-FAVORITE COVERS
+ *******************************************/
+
+#playlistDiv {
+text-align: center;
+}
+
+#playListHeader {
+  font-size: 150%;
+  color: grey;
+  text
+}
 
 /******************************************
-PAGE-PROJECT
+PAGES - TEARABLE CLOTH AND JASMIN CUBE
 ******************************************/
 #cloth-wrapper {
   padding-left: 2em;
