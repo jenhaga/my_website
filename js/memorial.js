@@ -3,7 +3,7 @@ var img;
 var img2;
 function setup(){
   var canvas = createCanvas(400, 400, WEBGL);
-  canvas.class('mCubes');
+  canvas.parent('canvas-parent');
   img = loadImage("img/jasmin.jpg");
   img2 = loadImage("img/frisky.jpg");
 }
