@@ -1,106 +1,199 @@
-@media screen and (min-width: 480px) {
-
-  /******************************************
-  TWO COLUMN LAYOUT
-  ******************************************/
-
-  #primary {
-    width: 50%;
-    float: left;
-  }
-
-  #secondary {
-    width: 40%;
-    float: right;
-  }
-
-/******************************************
-3 * 5% (because margin is 2.5 and we want 3 columns) = 15%
-100% - 15% (taken up by margin) = 85%
-85/3 (because we want 3 columns) = 28.3333333333 available for each image.
-******************************************/
-
-/******************************************
-PAGE: PHOTOS
-******************************************/
-
-  #gallery li {
-    width: 28.3333%;
-  }
-
-
-/******************************************
-PAGE: Home
-******************************************/
-
-  .home-page-photo {
-  float: left;
-  margin: 0 170px 0 0;
-  }
-
-/******************************************
-PAGE: ABOUT
-******************************************/
-
-  .profile-photo {
-    float: left;
-    margin: 0 5% 80px 0;
-  }
-
-/******************************************
-PAGE: Jasmin Cube
-******************************************/
-
-#defaultCanvas0 {
-
-  }
-
+* {
+  box-sizing: border-box;
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 420px) {
 
-/******************************************
-HEADER
-******************************************/
-
-  nav {
-    background: none;
-    float: right;
-    font-size: 1.125em;
-    margin: 3%;
-    text-align: right;
-    width: 45%;
-   }
-
-  #logo {
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-    width: 35%;
+  #home-photo-wrap {
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%
+    margin: 0;
+    padding: 0;
   }
 
+  .home-page-photo {
+    float: left
+    margin: 0px, 10px, 10px, 10px;
+  }
+
+  .quotes {
+    max-width: 50%;
+    float: right;
+    margin-left: 10px;
+    vertical-align: top;
+  }
+
+  #photo-wrapper {
+    margin-left: 30px;
+  }
+
+  #gallery li {
+    float:left;
+    width: 40%;
+    margin-top: 20px
+  }
+
+  .sizing1 {
+    height: 130px;
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 765px) {
+
   h1 {
-    font-size: 2.5em;
+    font-size: 35px;
+}
+
+  h2 {
+    font-size: 20px;
+}
+
+  .dropbtn {
+    width: 80px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: -20px;
+    padding: 8px;
+     }
+
+  #home-photo-wrap {
+    height: 40%;
+    width: 40%;
+    float: left;
+    margin: 0px auto;
+  }
+
+  .home-page-photo {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+
+  .quotes {
+    display: inline;
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 2px;
+    padding-right: 12px;
+    text-align: left;
+  }
+/* Where is my photo wrapper?*/
+  #photo-wrapper {
+    border: 2px, solid, tomato;
+  }
+
+  #gallery li {
+    width: 28%;
+  }
+
+  .sizing1 {
+    height: 160px;
+}
+
+  .sizing2 {
+    height: 160px;
+}
+
+  .recipeList {
+    display: inline-block;
+    margin-top: 0px;
+    list-style: none;
+    text-align: left;
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  h1 {
+    font-size: 35px;
   }
 
   h2 {
-    font-size: 1em;
-    margin-bottom: 20px;
+    font-size: 20px;
   }
+
+  #home-photo-wrap {
+    height: 35%;
+    width: 35%;
+    margin-right: 0px;
+  }
+
+  .home-page-photo {
+    margin-left: 50px;
+  }
+
+  .quotes {
+    margin-top: 17px;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+
+  .sizing1 {
+    height: 190px;
+  }
+
+  .sizing2 {
+    height: 190px;
+  }
+}
+@media screen and (min-width: 1070px){
+
+  .sizing1 {
+    height: 220px;
+  }
+  .sizing2 {
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
 
   header {
-    border-bottom: 5px solid #555;
-    margin-bottom: 35px;
+    height: 150px;
+    margin: 0 0 20px 0;
+    padding: 5px 0 0 30px;
+    width: 100%;
   }
 
-  #wrapper {
-  min-height: calc(100vh - 80px);
+  #logo {
+  margin-top: 17px;
+}
+
+  h1 {
+    font-size: 45px;
+    margin: 15px 0;
   }
- }
 
- @media screen and (min-width: 520px) {
+  h2 {
+    font-size: 30px;
+    margin: -5px 0 0;
+  }
 
- .home-page-photo {
-   margin-right: 30px;
- }
+  .dropbtn {
+    width: 110px;
+    font-size: 15px;
+    margin-top: 37px;
+    margin-left: -68px;
+    margin-right: 20px;
+    padding: 11px;
+     }
+
+  .quotes {
+    font-size: 20px
+    margin-top: 17px;
+    padding-right: 30px;
+  }
+
+  .sizing1 {
+    height: 260px;
+  }
+
+  .sizing2 {
+    height: 260px;
+  }
 }
