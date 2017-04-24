@@ -14,12 +14,6 @@ body {
   margin: 0px;
 }
 
-#home-photo-wrap {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
 a {
   text-decoration: none;
 }
@@ -78,11 +72,22 @@ footer {
   margin: 05px;
 }
 
+#home-photo-wrap {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
 .home-page-photo {
   display: inline-block;
   margin: 0px;
   border-radius: 30%;
   box-shadow: 0 0 50px 5px rgba(0, 0, 0, 1);
+}
+
+.quotes {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /******************************************

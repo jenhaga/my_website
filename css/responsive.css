@@ -69,7 +69,7 @@
   .home-page-photo {
     margin-top: 20px;
     margin-right: 0px;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   .quotes {
@@ -183,9 +183,13 @@
     padding: 11px;
      }
 
+  .home-page-photo {
+    margin-top: 28px;
+  }
+
   .quotes {
-    font-size: 20px
-    margin-top: 17px;
+    font-size: 25px;
+    margin-top: 15px;
     padding-right: 30px;
   }
 
