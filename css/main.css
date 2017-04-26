@@ -55,6 +55,7 @@ h1 {
 
 h2 {
   margin: -5px 0 0;
+  font-size: 17px;
   font-weight: normal;
   color: #730099;
   text-shadow: 3px 3px 10px black;
@@ -192,6 +193,10 @@ Recipes
 
 #rPageBackground {
   background-image: url(https://www.iwu.edu/wellness/specialevents/images/cookies.jpeg);
+  border-top: none;
+  border-bottom: 3px solid #4d2800;
+  border-left: 3px solid #4d2800;
+  border-right: 3px solid #4d2800;
 }
 
 .tableWrap {
@@ -252,11 +257,10 @@ th, td {
 
 .rPageIcon {
   background-color: #c6996a;
-  color: white;
 }
 
 #rPageFooter {
-color: #4d2800;
+color: white;
 font-weight: bold;
 padding-bottom: 3px;
 }

@@ -55,5 +55,15 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
-  </body>
+    <script>
+    var person = prompt("Please enter your full name", "Harry Potter");
+    if (person == "Catherine Liberty") {
+        document.getElementById("greeting").innerHTML =
+        "Hello Catherine. Please click on the stone and scroll down.";
+    } else {
+    document.getElementById("greeting").innerHTML =
+    "Hello," + " " + person + "." + " " + "Thanks for visiting!";
+    }
+   </script>
+ </body>
 </html>
