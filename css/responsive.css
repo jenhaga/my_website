@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -45,16 +46,26 @@
 
   h1 {
     font-size: 35px;
-}
+  }
 
   h2 {
     font-size: 20px;
-}
+  }
+
+  footer {
+    font-size: 0.75em;
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+  }
 
   .dropbtn {
     width: 80px;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: -20px;
     padding: 8px;
      }
@@ -81,6 +92,7 @@
     padding-right: 12px;
     text-align: left;
   }
+
 /* Where is my photo wrapper?*/
   #photo-wrapper {
     border: 2px, solid, tomato;
@@ -92,18 +104,37 @@
 
   .sizing1 {
     height: 160px;
-}
+  }
 
   .sizing2 {
     height: 160px;
-}
+  }
 
-  .recipeList {
-    display: inline-block;
-    margin-top: 0px;
-    list-style: none;
-    text-align: left;
+  .search {
+    width: 35%;
+    font-size: 16px;
+  }
 
+  #rPageBackground {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  table {
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  #playListHeader {
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+    padding: 15px;
+  }
+
+  iframe {
+    width: 520px;
+    height: 280px;
   }
 }
 
@@ -141,13 +172,19 @@
     height: 190px;
   }
 }
+
 @media screen and (min-width: 1070px){
 
   .sizing1 {
     height: 220px;
   }
+
   .sizing2 {
     height: 220px;
+  }
+
+  #memorialCube-heading {
+    font-size: 20px;
   }
 }
 
@@ -161,8 +198,8 @@
   }
 
   #logo {
-  margin-top: 17px;
-}
+    margin-top: 17px;
+  }
 
   h1 {
     font-size: 45px;
@@ -181,7 +218,7 @@
     margin-left: -68px;
     margin-right: 20px;
     padding: 11px;
-     }
+  }
 
   .home-page-photo {
     margin-top: 28px;
